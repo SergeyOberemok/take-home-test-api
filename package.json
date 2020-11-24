@@ -1,0 +1,30 @@
+{
+  "name": "spartez-frontent-coding-test",
+  "version": "2020.03.24",
+  "private": true,
+  "description": "Coding test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:spartez/spartez-frontent-coding-test.git"
+  },
+  "author": "Spartez",
+  "dependencies": {
+    "express": "4.17.1",
+    "faker": "4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "core-js": "^3.6.4",
+    "file-loader": "^6.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
