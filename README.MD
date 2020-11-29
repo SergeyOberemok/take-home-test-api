@@ -94,3 +94,46 @@ Here are some things we will be looking for in your submission:
   things that compile to them (TypeScript, CSS processors, etc.)
 
 Good luck!
+
+## What have been done
+
+Stack of technologies that has been used in this project:
+
+* Vue.js - for fast prototyping and development
+* Tailwind css and SASS - for styles and layout
+* Vuex - for state management
+* Typescript - for type checking
+* Eslint, Prettier - for code styling
+
+### Framework and state management
+
+In order to make workable solution in a short term I used Vue.js framework with Vuex state management. It helped me quickly setup a project with CLI and make basic markups in a few steps according to provided template. Also there is no need for additional setup of a store and overcomplicated logic in order to start implementing new features.
+
+### Styles
+
+Due to small size of template of components I used atomic approach with tailwind css in order to define overall look and layout and putted additional styles for a few components naming elements with BEM metodology.
+
+### Key points that I took into consideration
+
+* Persisting the model in the store and applying a search for it
+* Limit the loading of the data in order not to fetch it all at once
+* Updating already existing data with newly fetched one
+* Separation of the logic and implementation from the presentation by using filters, business layer and model by it self
+* Implementing understandable mechanism for updating the model over the time in the separate module
+
+### Implemented features
+
+* Basic template and mobile view
+* Added search by fields which are not only name or quotes but by everything which is appeared on the page
+* Highlights searched criteria
+* Added ability to refresh the model over the specified amount of time which can be applied by setting keys in env file (enable by default, refresh time is 30 seconds). While refreshing search criteria takes into consideration as well
+* Fetching missing items by limit and offset which trigers by scrolling to the bottom
+
+### How to view the solution
+
+* `npm install` - Install dependencies
+* `npm run build` - builds the assets for the front-end once
+* `npm run start` - starts the server at http://localhost:9000
+
+
+
