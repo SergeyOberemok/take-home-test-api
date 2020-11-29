@@ -49,7 +49,7 @@ module.exports.create = function initServer() {
         }));
     });
 
-    server.get(/.*/, express.static('app'));
+    server.get(/.*/, express.static('dist'));
 
     return server;
 };
