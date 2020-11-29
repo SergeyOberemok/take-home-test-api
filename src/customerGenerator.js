@@ -23,7 +23,7 @@ module.exports = function generateCustomer() {
         phone: faker.phone.phoneNumber(),
         username: faker.internet.userName(firstName, lastName),
         email: faker.internet.email(firstName, lastName),
-        avatar: faker.internet.avatar(),
+        avatar: `https://randomuser.me/api/portraits/thumb/men/${faker.random.number(99)}.jpg`,
         job: {
             title: faker.name.jobTitle(),
             company: faker.company.companyName()

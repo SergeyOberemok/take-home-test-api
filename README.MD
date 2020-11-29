@@ -5,7 +5,7 @@ Welcome to our coding test!
 The goal is to create a product sales dashboard application.
 
 This test will help us see how you solve problems in code,
-and to learn about hte decision and choices you make when coding.
+and to learn about the decision and choices you make when coding.
 
 You may use any front-end technologies you like to implement a solution :)
 
